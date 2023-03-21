@@ -8,4 +8,4 @@ This is submodule of my studying notes which were released as a public project i
 [[https://xandro2021.github.io/GuitarStore/][Github Pages Link]]
 
 * Interesting things learned in this Project
-+ Remember the property grid-auto-flow to fix the issue in bloques__grid
+
