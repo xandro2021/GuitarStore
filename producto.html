@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA: Nombre Pagina</title>
+    <link rel="icon" href="linux.png" type="image/png" media="screen" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+
+            <div class="header__barra">
+                <a href="#">
+                    <img class="header__logo" alt="imagen logo" src="img/logo.svg" />
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+                </nav>
+            </div> <!-- .header-barra -->
+
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <div class="producto">
+            <img class="producto__imagen" alt="imagen guitarra" src="img/guitarra_12.jpg" />
+
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Lukather</h3>
+                <p class="producto__descripcion">
+                    Augue eget arcu dictum varius duis at consectetur lorem donec. Malesuada fames ac turpis egestas
+                    Eu ultrices vitae, auctor eu augue ut lectus arcu, bibendum at varius vel? Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue.
+                    Senectus et netus et malesuada fames. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl, vel pretium lectus quam id leo in!
+                    Non, consectetur a erat nam at lectus urna duis convallis convallis tellus, id? Congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus.
+                    Risus feugiat in ante metus, dictum at tempor commodo, ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet, consectetur?
+                </p>
+                <p class="producto__precio"> $299 </p>
+
+                <form class="producto__formulario" method="" action="">
+                    <label class="producto__label" for="">Cantidad:</label>
+                    <select class="producto__cantidad" id="" name="">
+                        <option value="">-- Selecione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <input class="producto__agregar-carrito" type="submit" name="" value="Agregar al carrito" />
+                </form>
+            </div>
+        </div> <!-- .producto -->
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor footer__contenido">
+            <nav class="footer__nav">
+                <a class="footer__enlace" href="index.html">Inicio</a>
+                <a class="footer__enlace" href="nosotros.html">Nosotros</a>
+                <a class="footer__enlace" href="blog.html">Blog</a>
+                <a class="footer__enlace" href="tienda.html">Tienda</a>
+            </nav>
+
+            <p class="footer__copyright">
+                Todos los derechos reservados &copy;
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
